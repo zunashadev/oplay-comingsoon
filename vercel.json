@@ -23,7 +23,7 @@
     "outputDirectory": "public",
     "env": {
         "APP_ENV": "production",
-        "APP_DEBUG": "false",
+        "APP_DEBUG": "true",
         "APP_URL": "https://oplay-comingsoon.vercel.app",
         "APP_KEY": "base64:/rxlphRZVOH/5GJrK04wIWCLHU/eMcRZ9lnY75J8tcQ=",
 
