@@ -24,7 +24,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "false",
-        "APP_URL": "https://oplay-comingsoon.vercel.app/",
+        "APP_URL": "https://oplay-comingsoon.vercel.app",
         "APP_KEY": "base64:/rxlphRZVOH/5GJrK04wIWCLHU/eMcRZ9lnY75J8tcQ=",
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
