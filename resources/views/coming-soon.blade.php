@@ -31,7 +31,7 @@
 
         <div class="relative inline-block">
             <img src="{{ asset('patterns/pattern.png') }}" alt="Logo" class="absolute inset-x-0 bottom-0 -z-10 w-full scale-110 md:scale-130 lg:scale-150">
-            <h1 class="text-me-1 text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-league-spartan font-bold">Coming Soon</h1>
+            <h1 class="text-me-1 text-center text-5xl md:text-7xl lg:text-9xl xl:text-10xl font-league-spartan font-bold">Coming Soon</h1>
         </div>
 
         <div class="flex items-center space-x-12 mt-12">
@@ -40,12 +40,12 @@
                     <img src="{{ asset('icons/instagram.png') }}" alt="Logo" class="size-6 md:size-8 lg:size-10 xl:size-12">
                 </div>
             </a>
-            <a href="https://www.instagram.com/your_username" target="_blank">
+            <a href="https://wa.me/6285117247636" target="_blank">
                 <div class="bg-me-3 rounded-full size-10 md:size-12 lg:size-14 xl:size-16 flex items-center justify-center">
                     <img src="{{ asset('icons/whatsapp.png') }}" alt="Logo" class="size-6 md:size-8 lg:size-10 xl:size-12">
                 </div>
             </a>
-            <a href="https://www.instagram.com/your_username" target="_blank">
+            <a href="https://www.youtube.com/oplayindonesia" target="_blank">
                 <div class="bg-me-3 rounded-full size-10 md:size-12 lg:size-14 xl:size-16 flex items-center justify-center">
                     <img src="{{ asset('icons/youtube.png') }}" alt="Logo" class="size-8 md:size-10 lg:size-12 xl:size-14">
                 </div>
