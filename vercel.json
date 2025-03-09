@@ -2,28 +2,29 @@
     "version": 2,
     "framework": null,
     "functions": {
-        "api/*.php": { "runtime": "vercel-php@0.6.0" }
+        "api/index.php": {
+            "runtime": "vercel-php@0.7.3"
+        }
     },
     "routes": [
         {
-            "src": "/(css|js)/(.*)$",
-            "dest": "/api/assets.php?type=$1&file=$2"
+            "src": "/build/(.*)",
+            "dest": "/build/$1"
         },
         {
-            "src": "/(.*)\\.(.+)/$",
-            "dest": "public/$1.$2"
+            "src": "/(.*\\.(?:css|js|png|jpg|jpeg|gif|svg|ico|ttf|woff|woff2|eot|otf|webp|avif|txt))$",
+            "dest": "/public/$1"
         },
         {
             "src": "/(.*)",
             "dest": "/api/index.php"
         }
     ],
+    "outputDirectory": "public",
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "false",
         "APP_URL": "http://oplay-comingsoon.vercel.app/",
-        "VITE_APP_NAME": "http://oplay-comingsoon.vercel.app/",
-        "APP_KEY": "base64:/rxlphRZVOH/5GJrK04wIWCLHU/eMcRZ9lnY75J8tcQ=",
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
