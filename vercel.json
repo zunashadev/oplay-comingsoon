@@ -4,6 +4,12 @@
     "functions": {
         "api/index.php": { "runtime": "vercel-php@0.6.0" }
     },
+    "build": {
+        "env": {
+            "NODE_ENV": "production"
+        },
+        "commands": ["composer install", "npm install", "npm run build"]
+    },
     "builds": [
         {
             "src": "api/index.php",
