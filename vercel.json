@@ -18,7 +18,8 @@
         {
             "src": "/(.*)",
             "dest": "/api/index.php"
-        }
+        },
+        { "src": "/fonts/(.*)", "dest": "/public/fonts/$1" }
     ],
     "outputDirectory": "public",
     "env": {
