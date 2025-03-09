@@ -8,6 +8,10 @@
         { "src": "/build/(.*)", "dest": "/public/build/$1" },
         { "src": "/storage/(.*)", "dest": "/public/storage/$1" },
         { "src": "/images/(.*)", "dest": "/public/images/$1" },
+        { "src": "/fonts/(.*)", "dest": "/public/fonts/$1" },
+        { "src": "/icons/(.*)", "dest": "/public/icons/$1" },
+        { "src": "/logo/(.*)", "dest": "/public/logo/$1" },
+        { "src": "/patterns/(.*)", "dest": "/public/patterns/$1" },
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
     "env": {
